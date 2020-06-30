@@ -44,6 +44,9 @@ class Category implements \Dadolun\CategoryImport\Api\CategoryImportInterface
      */
     protected $categoryRepository;
 
+    /**
+     * @var Reader
+     */
     protected $configReader;
 
     /**
