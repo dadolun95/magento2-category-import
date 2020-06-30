@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <dadolun>
+            <category_import>
+                <cron_schedule>0 0 * * *</cron_schedule>
+                <csv_path>var/import/categories.csv</csv_path>
+                <done_csv_path>var/import/done/</done_csv_path>
+                <error_csv_path>var/import/error/</error_csv_path>
+                <additional_fields>var/import/error/</additional_fields>
+                <csv_delimiter>,</csv_delimiter>
+            </category_import>
+        </dadolun>
+    </default>
+</config>

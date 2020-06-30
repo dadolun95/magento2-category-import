@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<additional name="main">
+    <column csv_name="description" attribute_name="description" sort="5"></column>
+</additional>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="dadolun_import">
+        <job name="dadolun_category_import" instance="Dadolun\CategoryImport\Cron\ImportCategories" method="execute">
+            <config_path>dadolun/category_import/cron_schedule</config_path>
+        </job>
+    </group>
+</config>
