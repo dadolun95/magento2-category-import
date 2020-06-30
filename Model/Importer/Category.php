@@ -67,6 +67,7 @@ class Category implements \Dadolun\CategoryImport\Api\CategoryImportInterface
      * @param CategoryFactory $categoryFactory
      * @param CategoryCollectionFactory $categoryCollectionFactory
      * @param CategoryRepository $categoryRepository
+     * @param Reader $configReader
      */
     public function __construct(
         CategoryFactory $categoryFactory,
@@ -83,7 +84,7 @@ class Category implements \Dadolun\CategoryImport\Api\CategoryImportInterface
     }
 
     /**
-     * Load category by iStore uid
+     * Load category by category code
      * @param $data
      * @return bool|\Magento\Framework\DataObject
      * @throws LocalizedException
