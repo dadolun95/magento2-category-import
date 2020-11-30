@@ -1,5 +1,5 @@
 {
-    "name": "dadolun95/category-import",
+    "name": "dadolun95/magento2-category-import",
     "description": "Category Import by csv module",
     "require": {
         "magento/module-catalog": "*"
