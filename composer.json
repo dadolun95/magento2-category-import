@@ -11,7 +11,10 @@
     "autoload": {
         "files": [
             "registration.php"
-        ]
+        ],
+        "psr-4": {
+            "Dadolun\\NewsletterCoupon\\": ""
+        }
     },
     "version": "1.0.0"
 }
