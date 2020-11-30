@@ -2,7 +2,7 @@
     "name": "dadolun95/magento2-category-import",
     "description": "Category Import by csv module",
     "require": {
-        "magento/module-catalog": "*"
+        "magento/framework": "^103.0"
     },
     "type": "magento2-module",
     "license": [
