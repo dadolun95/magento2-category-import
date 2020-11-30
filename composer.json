@@ -5,9 +5,8 @@
         "php",
         "magento",
         "magento2",
-        "newsletter",
-        "coupon",
-        "promotions"
+        "category",
+        "import"
     ],
     "require": {
         "magento/framework": "^103.0"
@@ -21,7 +20,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Dadolun\\NewsletterCoupon\\": ""
+            "Dadolun\\CategoryImport\\": ""
         }
     },
     "version": "1.0.0"
