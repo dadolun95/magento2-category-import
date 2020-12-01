@@ -57,3 +57,6 @@ d_category,"A Category,D Category",999,1,"D Category Description"
 e_category,"A Category,D Category,E Category",999,0,"E Category Description"
 b_category,"B Category",999,1,"B Category Description"
 ```
+
+## Contributing
+Contributions are very welcome. In order to contribute, please fork this repository and submit a [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
