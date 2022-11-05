@@ -1,4 +1,4 @@
-# Dadolun_CategoryImport module for Magento 2
+# Dadolun_CategoryImport module for Magento 2 <img src="https://avatars.githubusercontent.com/u/168457?s=40&v=4" alt="magento" />
 
 Category importer from CSV file. 
 This is a basic example and startup for more detailed category imports.
